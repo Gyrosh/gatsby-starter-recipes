@@ -39,6 +39,8 @@ module.exports = {
                 authToken: process.env.GATSBY_FLOTIQ_API_KEY,
                 forceReload: false, //(optional)
                 includeTypes: [`recipe`,`_media`],
+		timeout: 30000,
+		objectLimit: 1000
             },
         },
         /**
